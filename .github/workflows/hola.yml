@@ -1,0 +1,11 @@
+name: Hola Actions STG
+
+on:
+  workflow_dispatch:
+
+jobs:
+  saluda:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Saluda
+        run: echo "Hola, GitHub Actions! Soc STG"
